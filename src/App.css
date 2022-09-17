@@ -1,38 +1,729 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800 &display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.luxury {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 34px;
+  color: #321b00;
+  margin-top: 15px;
+}
+.luxury span {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 17px;
+  line-height: 34px;
+  color: #fb8500;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 80px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.booknow {
+  padding: 12px 38px;
+  margin-top: 10px;
+  gap: 8px;
+  width: 179px;
+  height: 53px;
+  background: #fb8500;
+  border-radius: 12px;
+  border: none;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 29px;
+  color: #ffffff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  padding: 0 80px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section-container1 {
+  background-image: url("./Assets/Images/VacationBG.png");
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-size: contain;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heading {
+  width: 55%;
+  padding: 112px 48px 0;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 46px;
+  color: #000000;
+}
+.body {
+  width: 50%;
+  margin-top: 0.7rem;
+  padding: 0 48px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000000;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+  width: 34%;
+  padding: 0 45px;
+  margin-top: 10px;
+}
+.see-video {
+  padding: 0 24px;
+  gap: 8px;
+  width: 179px;
+  height: 53px;
+  border: 1.4px solid #fb8500;
+  border-radius: 16px;
+  margin-top: 11px;
+  background: none;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 29px;
+  color: #fb8500;
+}
+.image {
+  background-color: #ffffff;
+  margin-top: 0;
+  padding: 5px;
+  border-radius: 50%;
+}
+.services {
+  padding: 0 130px;
+  width: 100%;
+  margin-top: -5.2rem;
+}
+.our-services {
+  background-color: #ffffff;
+  border: 6px solid #fed6aa;
+  box-shadow: 8px 12px 16px rgba(251, 133, 0, 0.2);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 25px;
+  width: 100%;
+}
+.ser-container1 {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.cover-see-more {
+  display: flex;
+  justify-content: space-between;
+  flex: 50%;
+  padding: 30px;
+}
+.what-we-cover {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 34px;
+  color: #000000;
+}
+.see-more {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 32px;
+  text-decoration-line: underline;
+  color: #fb8500;
+}
+
+.list1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 2rem;
+}
+.accommodation {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin-right: 2rem;
+}
+.accommodation-img {
+  width: 50px;
+  height: 50px;
+}
+.accommodation p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 24px;
+  color: #000000;
 }
 
-.App-link {
-  color: #61dafb;
+.wifi {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+.wifi-imgs {
+  border: 1px solid #321b00;
+  padding: 8px;
+  border-radius: 16px;
+}
+.wifi-imgs1 {
+  border: 1px solid #321b00;
+  padding: 13px 8px;
+  border-radius: 16px;
+}
+.wifi-imgs2 {
+  border: 1px solid #321b00;
+  padding: 14px 8px;
+  border-radius: 16px;
+}
+.wifi-imgs3 {
+  border: 1px solid #321b00;
+  padding: 12px 8px;
+  border-radius: 16px;
+}
+.wifi-imgs4 {
+  border: 1px solid #321b00;
+  padding: 9px 8px;
+  border-radius: 16px;
+}
+.wifi-img {
+  width: 40px;
+}
+.wifi p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  color: #000000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.summer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  padding: 0 80px;
+  width: 100%;
+  margin-bottom: 4rem;
+}
+.summer-container1 {
+  background-image: url("./Assets/Images/plane.png");
+  padding: 0 80px;
+  width: 701px;
+  height: 402px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  text-align: center;
+}
+.summer-vacay {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 72px;
+  color: #000000;
+  margin-top: 8rem;
+}
+.memorable-summer {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+.locations {
+  background: linear-gradient(
+    360deg,
+    rgba(142, 236, 245, 0.98) 6.74%,
+    rgba(142, 236, 245, 0) 100%
+  );
+  border-radius: 0 0 30px 30px;
+  height: 300px;
+  width: 100%;
+  margin-top: 1rem;
+}
+.location {
+  display: flex;
+}
+.location1 {
+  background: #ffffff;
+  box-shadow: 6px 8px 12px rgba(131, 208, 243, 0.12);
+  border-radius: 20px;
+  margin-right: 2rem;
+  width: 370px;
+}
+.santorini-img {
+  width: 370px;
+  height: 216px;
+}
+.santorini-tag {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+.santorini {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  color: #1e1e1e;
+}
+.amt-id-btn {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  padding: 0 20px;
+}
+.amt {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 48px;
+  color: #fb8500;
+}
+.booking-id {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #1e1e1e;
+}
+.santorini-btn {
+  margin-top: 1rem;
+  padding: 12px 14px;
+  gap: 8px;
+  background: #fb8500;
+  border-radius: 12px;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 29px;
+  color: #ffffff;
+  border: none;
+}
+
+.relax {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20rem;
+  padding: 0 80px;
+  width: 100%;
+}
+.relax-container1 {
+  background-image: url("./Assets/Images/relax.png");
+  padding: 0 80px;
+  width: 701px;
+  height: 402px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  text-align: center;
+}
+.relax-vacay {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 72px;
+  color: #000000;
+  margin-top: 9.8rem;
+}
+.memorable-relax {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #000000;
+}
+.resort-treats {
+  display: flex;
+}
+.resort-treat {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 72px;
+  color: #000000;
+}
+.resort-treat-small {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+ol {
+  list-style: none;
+}
+.offer {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin: 20px 0;
+}
+.offer1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin: 20px 0;
+}
+.number1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  padding: 1px 10px;
+  border: 3px solid #fed6aa;
+  background: #fb8500;
+  border-radius: 100%;
+  margin-right: 15px;
+}
+.number6 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  padding: 1px 8px;
+  border: 3px solid #fed6aa;
+  background: #fb8500;
+  border-radius: 100%;
+  margin-right: 12px;
+}
+.numbers {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+  padding: 1px 8px;
+  border: 3px solid #fed6aa;
+  background: #fb8500;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+.flex-btns {
+  display: flex;
+}
+.btn5 {
+  width: 207px;
+  height: 47px;
+  background: #fb8500;
+  border-radius: 12px;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 29px;
+  color: #ffffff;
+  border: 1px solid #fb8500;
+}
+.btn6 {
+  width: 137px;
+  height: 47px;
+  background: #ffffff;
+  border-radius: 12px;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 29px;
+  color: #ffffff;
+  border: none;
+}
+a {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  color: #fb8500;
+}
+.arrow {
+  color: #fb8500;
+  font-size: 20px;
+  font-weight: bold;
+}
+.experience {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20rem 20px 0;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+  flex: 60%;
+}
+.left-container1 {
+  background: linear-gradient(
+    360deg,
+    rgba(142, 236, 245, 0.98) 6.74%,
+    rgba(142, 236, 245, 0) 100%
+  );
+  border-radius: 0 0 200px 200px;
+  height: 50vh;
+  margin-right: 60px;
+}
+.sun-ski-lun {
+  margin: -35rem auto 0;
+  padding: 50px 40px;
+  width: 100%;
+}
+.img-sun,
+.img-lunch {
+  width: 190px;
+  height: 320px;
+}
+.img-ski {
+  width: 220px;
+  height: 358px;
+  margin-bottom: 4rem;
+}
+.right-container {
+  flex: 40%;
+  margin-top: -7rem;
+}
+.exciting-experience,
+.tourism-text {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 72px;
+  color: #000000;
+}
+.small,
+.tourism-small-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #000000;
+}
+.btn7 {
+  width: 187px;
+  height: 47px;
+  background: #ffffff;
+  border-radius: 12px;
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 29px;
+  color: #ffffff;
+  border: none;
+}
+
+.tourism {
+  display: flex;
+  margin: 20rem 20px 0;
+}
+.grad-bg {
+  background: linear-gradient(
+    360deg,
+    rgba(142, 236, 245, 0.98) 6.74%,
+    rgba(142, 236, 245, 0) 100%
+  );
+  border-radius: 0 0 200px 200px;
+  height: 90%;
+  margin-top: 5rem;
+}
+.tourism-left-side {
+  flex: 50%;
+}
+.tourism-right-side {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 50%;
+}
+.snap {
+  width: 444px;
+  height: 444px;
+  border-radius: 50%;
+  margin-top: -30rem;
+}
+.ratings {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 80px;
+  margin: 0 auto;
+  width: 98%;
+  margin-top: 9rem;
+}
+.rating1 {
+  border: 3px solid #ccf0f7;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 30px;
+}
+.rating2 {
+  border: 3px solid #ccf0f7;
+  box-shadow: 4px 8px 8px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 90px;
+}
+.rating1-num {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 53px;
+  color: #000000;
+}
+.rating1-name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+
+footer {
+  background-color: #fc992b;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+footer .container1 {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 90px 50px 50px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+footer .container1 h6 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 44px;
+  color: #061a1e;
+}
+
+footer .container1 p {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 35px;
+  color: #000000;
+  cursor: point;
+}
+
+footer .container1 img {
+  margin-top: 0.5rem;
+}
+footer .container2 {
+  padding: 0px 20px;
+  margin: 0 auto;
+  width: 90%;
+  border-bottom: 1px solid #000000;
+}
+footer .container3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 50px 50px 65px;
+  margin: 0 auto;
+  width: 100%;
+}
+footer .container3 .ptc-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 36px;
+  color: #000000;  
+}
+footer .container3 .socials {
+  display: flex;
+}
+footer .container3 .socials .insta,
+.tweet {
+  margin-right: 1rem;
+}
+.text1 {
+  font-family: "Sora";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25.4323px;
+  line-height: 53px;
+  color: #000000;
+}
+.ptc {
+  display: flex;
+  justify-content: space-between;
+}
+.icons {
+  width: 30px;
+  height: 30px;
+  margin-right: 0.5rem;
+}
+.icons:hover {
+  cursor: pointer;
+  filter: invert(1);
+}
+.ptc-text {
+  margin-right: 0.5rem;
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+color: #000000;
 }
